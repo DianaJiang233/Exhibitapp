@@ -17,17 +17,17 @@ let g = 'There are';
 let o = 'people waiting in lines to see you!';
 
 function preload(){
-  compliment=loadSound("../audio/compli1.mp3");
-  morecompli=loadSound("../audio/compli2.mp3");
-  applause=loadSound("../audio/clap1.mp3");
-  applause2=loadSound("../audio/clap2.mp3");
+  compliment=loadSound("audio/compli1.mp3");
+  morecompli=loadSound("audio/compli2.mp3");
+  applause=loadSound("audio/clap1.mp3");
+  applause2=loadSound("audio/clap2.mp3");
 }
 function setup() {
   // The background image must be the same size as the parameters
   // into the createCanvas() method. In this program, the size of
   // the image is 720x400 pixels.
 
-  bg = loadImage('../image/monalisa.jpg');
+  bg = loadImage('image/monalisa.jpg');
 
   createCanvas(windowWidth, windowHeight);
   playAudioButton=createButton('Compliments');
